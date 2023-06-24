@@ -1,0 +1,39 @@
+.headWrapper {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #5183a1;
+  background-color: rgba(231, 231, 215, 1);
+  z-index: 99;
+}
+
+.iconWrapper {
+  flex: 1;
+  cursor: pointer;
+}
+
+.iconWrapper:hover {
+  opacity: 0.8;
+}
+
+.headAction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.headAction a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  color: #001e00;
+}
+
+.headAction a:last-child {
+  margin-right: 60px;
+}
